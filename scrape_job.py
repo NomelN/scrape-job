@@ -8,8 +8,8 @@ import pandas as pd
 """We choose like:
 profession: IT (informatique) and workplace: France (01P)"""
 
-base_url = 'https://candidat.pole-emploi.fr/'
-current_page = 'https://candidat.pole-emploi.fr/offres/recherche?lieux=01P&motsCles=informatique&offresPartenaires=true&rayon=10&tri=0'
+base_url = 'https://candidat.francetravail.fr/'
+current_page = 'https://candidat.francetravail.fr/offres/recherche?lieux=01P&motsCles=informatique&offresPartenaires=true&rayon=10&tri=0'
 pages = []
 
 print("Retrieving page URLs...")
